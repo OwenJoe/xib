@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="rdr-PQ-1Z3" id="YWl-O3-0h5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rdr-PQ-1Z3">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="417"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6v-Ef-wLx">
+                    <rect key="frame" x="77" y="87" width="70" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94901960780000005" green="0.49774299910000003" blue="0.1557355396" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="X6v-Ef-wLx" secondAttribute="trailing" constant="79" id="68P-w2-Oge"/>
+                <constraint firstAttribute="bottom" secondItem="X6v-Ef-wLx" secondAttribute="bottom" constant="300" id="9LW-8r-EtQ"/>
+                <constraint firstItem="X6v-Ef-wLx" firstAttribute="top" secondItem="rdr-PQ-1Z3" secondAttribute="top" constant="87" id="bZQ-Xj-dRj"/>
+                <constraint firstItem="X6v-Ef-wLx" firstAttribute="leading" secondItem="rdr-PQ-1Z3" secondAttribute="leading" constant="77" id="gfK-yV-0Ds"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="306.5"/>
+        </view>
+    </objects>
+</document>
